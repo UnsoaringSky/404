@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <img src="recto.png"></img>
+    <h1>Recto Memorial National High School</h1>
+    <nav>
+        <ul>
+              <button onclick="window.location.href='dashboard.html';">Dashboard</button>
+              <button onclick="window.location.href='newpage.html';">Students Records</button>
+              <button onclick="window.location.href='report.html';">Reports</button>
+              <button onclick="window.location.href='behavior.html';">Behavior Logs</button>
+              <button onclick="window.location.href='attendance.html';">Attendance</button>
+              <button onclick="window.location.href='login.html';">Log Out</button></button>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+  <h1>Reports</h1>  
+
+
+    <div class="filters">
+  <div class="filter-group">
+    <p>Report Type</p>
+    <select>
+      <option>Attendance</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <p>Date Range</p>
+    <select>
+      <option>Last 30 Days</option>
+       <option>Today</option>
+        <option>This Week</option>
+         <option>Last 7 Days</option>
+          <option>This Month</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <p>Grade Level</p>
+    <select>
+      <option>All</option>
+       <option>Grade 7</option>
+        <option>Grade 8</option>
+         <option>Grade 9</option>
+          <option>Grade 10</option>
+           <option>Grade 11</option>
+            <option>Grade 12</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <p>Strand</p>
+    <select>
+      <option>STEM</option>
+      <option>GAS</option>
+      <option>ICT</option>
+      <option>HUMSS</option>
+      <option>ABM</option>
+      <option>HE</option>
+    </select>
+  </div>
+
+  <div class="filter-group search-group">
+    <p>&nbsp;</p>
+    <input type="text" placeholder="Search by Student name or ID">
+  </div>
+
+  <div class="filter-group">
+    <p>&nbsp;</p>
+    <button class="generate-btn">Generate Report</button>
+</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Student ID</th>
+          <th>Total Days</th>
+          <th>Present</th>
+          <th>Absent</th>
+          <th>Attendance %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+        </tr>
+
+        <tr>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+        </tr>
+
+        <tr>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+        </tr>
+
+        <tr>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+        </tr>
+
+        <tr>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+        </tr>
+
+        <tr>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="buttons">
+      <button>Export to PDF</button>
+      <button>Export to Excel</button>
+      <button>Print Report</button>
+    </div>
+  </div>
+</body>
+</html>

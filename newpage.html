@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="recto.png"></img>
+        <h1>Recto Memorial National High School</h1>
+        <nav>
+            <ul>
+                <button onclick="window.location.href='dashboard.html';">Dashboard</button>
+                <button onclick="window.location.href='newpage.html';">Students Records</button>
+                <button onclick="window.location.href='report.html';">Reports</button>
+                <button onclick="window.location.href='behavior.html';">Behavior Logs</button>
+                <button onclick="window.location.href='attendance.html';">Attendance</button>
+                <button onclick="window.location.href='login.html';">Log Out</button></button>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Student Records</h1>      
+
+    <div class="filters">
+        <input type="text" placeholder="Search">
+    </div>
+
+    <div class="buttons">
+        <button>Filter</button>
+        <button>Export</button>
+        <button>Add New Student</button>
+        <button>Remove Record</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Name</th>
+                <th>Student ID</th>
+                <th>Grade Level</th>
+                <th>Attendance %</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+           <td><input type="checkbox" /></td> 
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td><input type="text" value="" /></td>
+           <td>
+            <input type="text" value="Inactive" /></td>
+            <td><span style="color: red;"> ● </span></td>
+           </tr>
+           <tr>
+            <td><input type="checkbox" /></td> 
+            <td><input type="text" value="" /></td>
+            <td><input type="text" value="" /></td>
+            <td><input type="text" value="" /></td>
+            <td><input type="text" value="" /></td>
+            <td>
+             <input type="text" value="Inactive" /></td>
+             <td><span style="color: red;"> ● </span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" /></td> 
+                <td><input type="text" value="" /></td>
+                <td><input type="text" value="" /></td>
+                <td><input type="text" value="" /></td>
+                <td><input type="text" value="" /></td>
+                <td>
+                 <input type="text" value="Inactive" /></td>
+                 <td><span style="color: red;"> ● </span></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" /></td> 
+                    <td><input type="text" value="" /></td>
+                    <td><input type="text" value="" /></td>
+                    <td><input type="text" value="" /></td>
+                    <td><input type="text" value="" /></td>
+                    <td>
+                     <input type="text" value="Inactive" /></td>
+                     <td><span style="color: red;"> ● </span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" /></td> 
+                        <td><input type="text" value="" /></td>
+                        <td><input type="text" value="" /></td>
+                        <td><input type="text" value="" /></td>
+                        <td><input type="text" value="" /></td>
+                        <td>
+                         <input type="text" value="Inactive" /></td>
+                         <td><span style="color: red;"> ● </span></td>
+                        </tr>   
+        </tbody>
+    </table>
+
+</body>
+</html>
